@@ -1,0 +1,9 @@
+html {
+    height: 810px;
+    overflow-y: hidden;
+}
+
+body {
+    background-color: rgb(177, 177, 177);
+    max-height: 810px;
+}

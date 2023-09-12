@@ -1,0 +1,22 @@
+.category-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.category-list-item:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.category-item-icon,
+.category-item-lable {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    margin: 0;
+}

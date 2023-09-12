@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    height: 810px;
+}
+
+.manage-section-container-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.manage-section-container-middle {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.manage-section-container-bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.manage-section-container-top div {
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 2rem;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: scale 0.05s;
+}
+
+.manage-section-container-middle div {
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: scale 0.05s;
+}
+
+.manage-section-container-bottom div {
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: scale 0.05s;
+}
+
+.manage-section-container-middle > :nth-child(1),
+.manage-section-container-bottom > :nth-child(1) {
+    width: 45%;
+}
+.manage-section-container-middle > :nth-child(2),
+.manage-section-container-bottom > :nth-child(2) {
+    width: 27.5%;
+}
+.manage-section-container-middle > :nth-child(3),
+.manage-section-container-bottom > :nth-child(3) {
+    width: 27.5%;
+}
+
+.manage-topic-tab:hover {
+    scale: 1.01;
+}
+.manage-topic-tab:active {
+    scale: 0.9;
+}
